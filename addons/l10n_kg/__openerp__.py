@@ -21,7 +21,7 @@
 
 {
     'name': 'Kyrgyzstan - Accounting',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Localization/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Kyrgyzstan in OpenERP.
