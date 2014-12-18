@@ -28,6 +28,7 @@ This is the base module to manage the accounting chart for Tajikistan in OpenERP
     """,
     'author': 'CodUP',
     'website': 'http://codup.com',
+    'images': ['static/description/icon.png'],
     'depends': ['account', 'account_chart'],
     'demo': [],
     'data': [
