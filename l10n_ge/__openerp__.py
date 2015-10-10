@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (C) 2014 CodUP (<http://codup.com>).
+#    Copyright (C) 2014-2015 CodUP (<http://codup.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,7 +21,7 @@
 
 {
     'name': 'Georgia - Accounting',
-    'version': '1.1',
+    'version': '2.0',
     'category': 'Localization/Account Charts',
     'description': """
 This is the base module to manage the accounting chart for Georgia in OpenERP.
@@ -29,12 +29,13 @@ This is the base module to manage the accounting chart for Georgia in OpenERP.
     'author': 'CodUP',
     'website': 'http://codup.com',
     'images': ['static/description/icon.png'],
-    'depends': ['account', 'account_chart'],
+    'depends': ['account'],
     'demo': [],
     'data': [
+        'data/account_chart.xml',
         'data/account.account.template.csv',
         'data/account_chart_template.xml',
-        'l10n_ge_wizard.xml',
+        'data/account_chart_template.yml',
     ],
     'sequence': 1,
     'installable': True,
