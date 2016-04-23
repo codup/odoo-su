@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    Copyright (C) 2014-2015 CodUP (<http://codup.com>).
+#    Copyright (C) 2014-2016 CodUP (<http://codup.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -28,7 +28,6 @@ This is the base module to manage the accounting chart for Moldova in OpenERP.
     """,
     'author': 'CodUP',
     'website': 'http://codup.com',
-    'images': ['static/description/icon.png'],
     'depends': ['account'],
     'demo': [],
     'data': [
