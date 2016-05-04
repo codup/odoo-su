@@ -21,10 +21,10 @@
 
 {
     'name': 'Lithuania - Accounting',
-    'version': '2.0',
+    'version': '2.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Lithuania in OpenERP.
+This is the base module to manage the accounting chart for Lithuania in Odoo.
     """,
     'author': 'CodUP',
     'website': 'http://codup.com',

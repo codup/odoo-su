@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <openerp>
 	<data noupdate="0">
         <!-- Chart template -->
         <record id="l10n_lt_account_chart_template" model="account.chart.template">
-            <field name="property_account_receivable_id" ref="lt_acc_62_01"/>
-            <field name="property_account_payable_id" ref="lt_acc_60_01"/>
-            <field name="property_account_expense_categ_id" ref="lt_acc_41_01"/>
-            <field name="property_account_income_categ_id" ref="lt_acc_90_01_1"/>
+            <field name="property_account_receivable_id" ref="lt_acc_2411"/>
+            <field name="property_account_payable_id" ref="lt_acc_4430"/>
+            <field name="property_account_expense_categ_id" ref="lt_acc_2040"/>
+            <field name="property_account_income_categ_id" ref="lt_acc_5000"/>
         </record>
 	</data>
 </openerp>
