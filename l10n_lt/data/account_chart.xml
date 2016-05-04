@@ -2,22 +2,22 @@
 <openerp>
 	<data noupdate="0">
         <!-- Chart template -->
-        <record id="lt_acc_000" model="account.account.template">
-            <field name="code">000</field>
-            <field name="name">Вспомогательный счет</field>
+        <record id="lt_acc_1" model="account.account.template">
+            <field name="code">1</field>
+            <field name="name">ILGALAIKIS TURTAS</field>
             <field name="reconcile" eval='True'/>
             <field name="user_type_id" ref="account.data_account_type_current_assets"/>
         </record>
 
         <record id="l10n_lt_account_chart_template" model="account.chart.template">
-            <field name="name">План счетов Литвы</field>
+            <field name="name">BUHALTERINĖS APSKAITOS SĄSKAITŲ PLANAS</field>
             <field name="code_digits">0</field>
             <field name="bank_account_code_prefix">999</field>
             <field name="cash_account_code_prefix">999</field>
-            <field name="transfer_account_id" ref="lt_acc_000"/>
-            <field name="currency_id" ref="base.RUB"/>
+            <field name="transfer_account_id" ref="lt_acc_1"/>
+            <field name="currency_id" ref="base.EUR"/>
         </record>
-        <record id="lt_acc_000" model="account.account.template">
+        <record id="lt_acc_1" model="account.account.template">
             <field name="chart_template_id" ref="l10n_lt_account_chart_template"/>
         </record>
 	</data>
