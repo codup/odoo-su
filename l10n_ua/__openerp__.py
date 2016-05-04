@@ -21,10 +21,10 @@
 
 {
     'name': 'Ukraine - Accounting',
-    'version': '2.0',
+    'version': '2.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Ukraine in OpenERP.
+This is the base module to manage the accounting chart for Ukraine in Odoo.
     """,
     'author': 'CodUP',
     'website': 'http://codup.com',
