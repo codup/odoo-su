@@ -21,7 +21,7 @@
 
 {
     'name': 'Moldova - Accounting',
-    'version': '2.0',
+    'version': '3.0',
     'category': 'Localization',
     'description': """
 This is the base module to manage the accounting chart for Moldova in OpenERP.
