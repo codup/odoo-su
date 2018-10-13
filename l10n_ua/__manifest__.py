@@ -8,7 +8,7 @@
 
 {
     'name': 'Ukraine - Accounting',
-    'version': '3.2',
+    'version': '3.3',
     'category': 'Localization',
     'description': """
 This is the base module to manage the accounting chart for Ukraine in Odoo.
@@ -23,6 +23,7 @@ This is the base module to manage the accounting chart for Ukraine in Odoo.
         'data/account_chart_template.xml',
         'data/account_chart_template.yml',
     ],
+    'images': ['static/description/banner.png'],
     'sequence': 1,
     'installable': True,
 }
