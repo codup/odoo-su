@@ -11,7 +11,7 @@
     'version': '3.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Latvia in OpenERP.
+This is the base module to manage the accounting chart for Latvia in Odoo.
     """,
     'author': 'CodUP',
     'website': 'http://codup.com',
@@ -21,7 +21,7 @@ This is the base module to manage the accounting chart for Latvia in OpenERP.
         'data/account_chart.xml',
         'data/account.account.template.csv',
         'data/account_chart_template.xml',
-        'data/account_chart_template.yml',
+        'data/account_chart_template_data.xml',
     ],
     'sequence': 1,
     'installable': True,
