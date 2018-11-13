@@ -8,7 +8,7 @@
 
 {
     'name': 'Estonia - Accounting',
-    'version': '3.1',
+    'version': '3.2',
     'category': 'Localization',
     'description': """
 This is the base module to manage the accounting chart for Estonia in Odoo.
