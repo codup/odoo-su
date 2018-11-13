@@ -14,7 +14,7 @@
             <field name="code_digits">0</field>
             <field name="bank_account_code_prefix">999</field>
             <field name="cash_account_code_prefix">999</field>
-            <field name="transfer_account_id" ref="lt_acc_1"/>
+            <field name="transfer_account_code_prefix">999</field>
             <field name="currency_id" ref="base.EUR"/>
         </record>
         <record id="lt_acc_1" model="account.account.template">
