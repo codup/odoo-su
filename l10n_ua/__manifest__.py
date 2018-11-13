@@ -8,7 +8,7 @@
 
 {
     'name': 'Ukraine - Accounting',
-    'version': '3.3',
+    'version': '3.4',
     'category': 'Localization',
     'description': """
 This is the base module to manage the accounting chart for Ukraine in Odoo.
